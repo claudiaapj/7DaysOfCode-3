@@ -12,14 +12,14 @@ const escolha = function(){
       for(let i = 0; i<radios.length; i++){
           if(radios[i].checked){
               console.log("Escoheu " + radios[i].value);
-          if(radios[i].value === "front"){
-              area = 'front'
+          if(radios[i].value === "Front-End"){
+              area = 'Front-End'
                 esconde();
                 areaForm()
                 continuaEstudos()
                
-          }else if(radios[i].value === "back"){
-              area = 'back'
+          }else if(radios[i].value === "Back-End"){
+              area = 'Back-End'
                 esconde();
                 areaForm()
                 continuaEstudos() 
@@ -31,14 +31,14 @@ const escolha = function(){
 
     function areaForm(){
         
-        if(area === 'front'){
+        if(area === 'Front-End'){
             let radios = document.getElementsByName("resp2");
             for(let i = 0; i<radios.length; i++){
                 if(radios[i].checked){
                     especializa = radios[i].value
                 }
             }
-        } else if(area === 'back'){
+        } else if(area === 'Back-End'){
             let radios = document.getElementsByName("resp2");
             for(let i = 0; i<radios.length; i++){
                 if(radios[i].checked){
@@ -61,13 +61,13 @@ const escolha = function(){
     }
     
     function esconde(){
-        if(area ==='front'){
+        if(area ==='Front-End'){
         let btn = document.getElementById('btnSeguir');
         let container = document.querySelector('.container')
         if(container.style.display === 'none'){
             container.style.display = 'block';
         } container.style.display = 'block';
-    } else if(area === 'back'){
+    } else if(area === 'Back-End'){
         let btn2 = document.getElementById('btnSeguir2');
         let container2 = document.querySelector('.container2')
         if(container2.style.display === 'none'){
