@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js"></script>
+    <title>7DaysOfCode - 3º dia</title>
+</head>
+<body>
+    <header class="neon">
+        <h1>
+            7DaysOfCode - 3º dia
+        </h1>
+    </header>
+    <main>
+        <section class="principal">
+            <div class="nivel1">
+                <ul>
+                    <li>
+                        <label for="">Você quer seguir para área de Front-End ou Back-End?</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="resp1" value="front">
+                        <label for="">Front-End</label>
+                        <input type="radio" name="resp1" value="back">
+                        <label for="">Back-End</label>
+                    </li>
+                </ul>
+                <div >
+                    <button class="seguir" id="btnSeguir" value="seguir" onclick="escolha()">  Seguir </button>
+                </div>
+                
+            </div>
+            <div class="nivel2-1 container">
+                <div class="front">
+                    <ul>
+                        <li>
+                            <label for="">Você quer aprender React ou aprender Vue?</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="resp2" value="React">
+                            <label for="">React</label>
+                            <input type="radio" name="resp2" value="Vue">
+                            <label for="">Vue</label>
+                        </li>
+                    </ul>
+                    <div >
+                        <button class="seguir" id="btnSeguir" value="seguir" onclick="escolha(), click1()">  Seguir </button>
+                    </div>
+                </div>
+            </div>
+            <div class="nivel2-2  container2">
+                <div class="back">
+                    <ul>
+                        <li>
+                            <label for="">Você quer aprender C# ou aprender Java?</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="resp2" value="C#">
+                            <label for="">C#</label>
+                            <input type="radio" name="resp2" value="java">
+                            <label for="">Java</label>
+                        </li>
+                    </ul>
+                    <div >
+                        <button class="seguir" id="btnSeguir2" value="seguir" onclick="escolha(), click1()">  Seguir </button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="escolher-indep  container1">
+                <ul>
+                    <li>
+                        <label for="">Você quer seguir se especializando na área escolhida ou seguir se desenvolvendo para se tornar Fullstack.?</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="resp3" value="area">
+                        <label for="">Seguir na área</label>
+                        <input type="radio" name="resp3" value="Fullstack">
+                        <label for="">Fullstack</label>
+                    </li>
+                </ul>
+                <div >
+                    <button class="seguir" id="btnSeguir1" value="seguir" onclick="escolha()">  Seguir </button>
+                </div>
+            </div>
+            <div class="mensag containerFinal">
+                <label for="" id="labelTec"></label>
+            </div>
+        </section>
+    </main>
+ 
+</body>
+<footer class="rodape">
+
+</footer>
+</html>

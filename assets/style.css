@@ -1,0 +1,166 @@
+body{
+    background-color: #000000;
+    color: #fff;   
+    
+}
+
+.neon{
+    height: auto;
+    font-size: 23px;
+    color: #ffff00;
+    text-align:     center;
+    line-height: 2;
+    animation: neon 1s ease-in-out infinite alternate;
+    
+}
+@keyframes neon{
+    from{
+        text-shadow: 0 0 45px #e7e7a4,
+                     0 0 55px #ffff00,
+                     0 0 65px #5bda12;
+    }
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+
+.nivel1 {
+    border: 1px solid #fff;
+    width: 65%;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    box-shadow: 0 0 8px #7c7c28,
+                0 0 8px #ffff00;
+  
+}
+
+.seguir{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-bottom-right-radius: 50px;
+    font-size: 17px;
+    background-color: #222209;
+    box-shadow: inset 0 0 10px #ffff00,
+                      0 0 5px #b8c505;  
+}
+.seguir:hover{
+    text-shadow:0 0 6px #ffff00,
+                0 0 9px #ffff00,
+                0 0 11px #ffff00; 
+    background-image: linear-gradient(90deg, #aeb821 50%,#949210 50% );
+    box-shadow: inset 0 0 10px #b8c505,
+                      0 0 5px #ffff00,
+                      0 0 10px #ffff00;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.nivel2-1 {
+    border: 1px solid #fff;
+    width: 65%;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    box-shadow: 0 0 8px #7c7c28,
+                0 0 8px #ffff00,
+                0 0 10px #ffff00;
+  
+}
+
+
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+
+label{
+    margin-right: 20px;
+}
+.nivel2-2 {
+    
+    border: 1px solid #fff;
+    width: 65%;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    box-shadow: 0 0 8px #7c7c28,
+                0 0 8px #ffff00,
+                0 0 10px #ffff00;
+  
+}
+
+
+.escolher-indep{
+    border: 1px solid #fff;
+    width: 65%;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 0 0 8px #7c7c28,
+                0 0 8px #ffff00,
+                0 0 10px #ffff00;
+}
+
+.container{
+    display: none;
+}
+.container1 {
+    display: none;
+}
+.container2 {
+    display: none;
+}
+
+.containerFinal{
+    display: none;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+}
+
